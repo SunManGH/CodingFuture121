@@ -1,3 +1,37 @@
 h4 {
     color: red;
 }
+
+.nav.navbar-nav {
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li {
+    float:left;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    border-right: 1px solid white;
+}
+
+.floatRight {
+    float: right;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+.active {
+    background-color: #04AA6D;
+}
